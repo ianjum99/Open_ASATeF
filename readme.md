@@ -16,43 +16,42 @@ The AI Stress-Testing Framework is an application designed to evaluate and impro
 1. Access the Dashboard: When you open the application, you'll see a dashboard with several sections.
 2. Run New Tests:
 
-1. In the "Run New Test" section, you can input a scenario type and content.
-2. For example, you might enter "Ethical Dilemma" as the scenario type and describe a complex ethical situation in the content field.
-3. Click "Run Test" to submit this scenario to the AI models.
+  1. In the "Run New Test" section, you can input a scenario type and content.
+  2. For example, you might enter "Ethical Dilemma" as the scenario type and describe a complex ethical situation in the content field.
+  3. Click "Run Test" to submit this scenario to the AI models.
 
 
 3. View Safeguard Effectiveness:
 
-1. The dashboard displays a chart showing the effectiveness of various safeguards (e.g., content filtering, ethical reasoning).
-2. This gives you an overview of how well the AI models are performing in different aspects of safety and reliability.
-
+  1. The dashboard displays a chart showing the effectiveness of various safeguards (e.g., content filtering, ethical reasoning).
+  2. This gives you an overview of how well the AI models are performing in different aspects of safety and reliability.
+  
 
 4. Analyze Test Results:
 
-1. In the "Recent Test Results" section, you can view the outcomes of your tests.
-2. For each test, you'll see:
-
-1. The timestamp of when the test was run
-2. The scenario content
-3. Issues identified for different AI models
-4. Any human verification that has been added
+  1. In the "Recent Test Results" section, you can view the outcomes of your tests.
+  2. For each test, you'll see:
+    1. The timestamp of when the test was run
+    2. The scenario content
+    3. Issues identified for different AI models
+    4. Any human verification that has been added
 
 
 5. Human-AI Collaboration:
 
-1. The framework includes a feature for humans to verify and provide feedback on AI responses.
-2. This helps in improving the accuracy of the system and provides a way to correct any mistakes made by the AI.
+  1. The framework includes a feature for humans to verify and provide feedback on AI responses.
+  2. This helps in improving the accuracy of the system and provides a way to correct any mistakes made by the AI.
 
 
 6. Iterate and Improve:
 
-1. Based on the test results and safeguard effectiveness metrics, you can identify areas where the AI models need improvement.
-2. You can then work on refining the AI models, adjusting their training data, or modifying their underlying algorithms to address the identified issues.
+  1. Based on the test results and safeguard effectiveness metrics, you can identify areas where the AI models need improvement.
+  2. You can then work on refining the AI models, adjusting their training data, or modifying their underlying algorithms to address the identified issues.
 
 
 7. Monitor Progress:
 
-1. By running tests regularly and comparing results over time, you can track the progress and improvements in your AI models' performance and safety.
+  1. By running tests regularly and comparing results over time, you can track the progress and improvements in your AI models' performance and safety.
 
 ## Setup Instructions
 
