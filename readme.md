@@ -16,13 +16,13 @@ The AI Stress-Testing Framework is an application designed to evaluate and impro
 1. Access the Dashboard: When you open the application, you'll see a dashboard with several sections.
 2. Run New Tests:
 
-  1. In the "Run New Test" section, you can input a scenario type and content.
-  2. For example, you might enter "Ethical Dilemma" as the scenario type and describe a complex ethical situation in the content field.
-  3. Click "Run Test" to submit this scenario to the AI models.
+  a. In the "Run New Test" section, you can input a scenario type and content.
+  b. For example, you might enter "Ethical Dilemma" as the scenario type and describe a complex ethical situation in the content field.
+  c. Click "Run Test" to submit this scenario to the AI models.
 
 
 3. View Safeguard Effectiveness:
-
+  
   1. The dashboard displays a chart showing the effectiveness of various safeguards (e.g., content filtering, ethical reasoning).
   2. This gives you an overview of how well the AI models are performing in different aspects of safety and reliability.
   
@@ -31,10 +31,11 @@ The AI Stress-Testing Framework is an application designed to evaluate and impro
 
   1. In the "Recent Test Results" section, you can view the outcomes of your tests.
   2. For each test, you'll see:
-    1. The timestamp of when the test was run
-    2. The scenario content
-    3. Issues identified for different AI models
-    4. Any human verification that has been added
+  
+     a. The timestamp of when the test was run
+     b. The scenario content
+     c. Issues identified for different AI models
+     d. Any human verification that has been added
 
 
 5. Human-AI Collaboration:
