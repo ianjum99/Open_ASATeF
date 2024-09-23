@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-stress-testing-config
+data:
+  DATABASE_URL: "sqlite:///ai_stress_test.db"
+  LOG_LEVEL: "INFO"
