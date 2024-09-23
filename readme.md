@@ -1,3 +1,59 @@
+# Open AI Stress Testing Framework
+The AI Stress-Testing Framework is an application designed to evaluate and improve the reliability, safety, and effectiveness of AI models. 
+
+
+
+## Purpose
+
+- Test AI models: The framework allows you to stress-test various AI models by presenting them with challenging scenarios.
+- Verify honesty and reliability: It helps identify potential issues in AI responses, such as inconsistencies, biases, or incorrect information.
+- Measure safeguard effectiveness: The application evaluates how well the AI models handle ethical considerations, content filtering, and uncertainty.
+- Improve AI systems: By identifying weaknesses and areas for improvement, the framework helps in refining AI models.
+
+
+## How to use it
+
+1. Access the Dashboard: When you open the application, you'll see a dashboard with several sections.
+2. Run New Tests:
+
+1. In the "Run New Test" section, you can input a scenario type and content.
+2. For example, you might enter "Ethical Dilemma" as the scenario type and describe a complex ethical situation in the content field.
+3. Click "Run Test" to submit this scenario to the AI models.
+
+
+3. View Safeguard Effectiveness:
+
+1. The dashboard displays a chart showing the effectiveness of various safeguards (e.g., content filtering, ethical reasoning).
+2. This gives you an overview of how well the AI models are performing in different aspects of safety and reliability.
+
+
+4. Analyze Test Results:
+
+1. In the "Recent Test Results" section, you can view the outcomes of your tests.
+2. For each test, you'll see:
+
+1. The timestamp of when the test was run
+2. The scenario content
+3. Issues identified for different AI models
+4. Any human verification that has been added
+
+
+5. Human-AI Collaboration:
+
+1. The framework includes a feature for humans to verify and provide feedback on AI responses.
+2. This helps in improving the accuracy of the system and provides a way to correct any mistakes made by the AI.
+
+
+6. Iterate and Improve:
+
+1. Based on the test results and safeguard effectiveness metrics, you can identify areas where the AI models need improvement.
+2. You can then work on refining the AI models, adjusting their training data, or modifying their underlying algorithms to address the identified issues.
+
+
+7. Monitor Progress:
+
+1. By running tests regularly and comparing results over time, you can track the progress and improvements in your AI models' performance and safety.
+
 ## Setup Instructions
 
 ### Backend Setup
@@ -89,11 +145,9 @@ We welcome contributions to the AI Stress-Testing Framework! Here's how you can 
 4. Update the documentation to reflect your changes.
 5. Submit a pull request with a clear description of your improvements.
 
-Please read our [Contributing Guidelines](CONTRIBUTING.md) for more detailed information.
-
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 
@@ -106,4 +160,3 @@ For questions, suggestions, or support, please open an issue on our GitHub repos
 - The open-source community for various libraries and tools used in this project.
 
 Thank you for your interest in the AI Stress-Testing Framework. Together, we can work towards more reliable and ethical AI systems!
-```
