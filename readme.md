@@ -71,7 +71,6 @@ The AI Stress-Testing Framework is an application designed to evaluate and impro
 1. Navigate to the project root directory.
 
 2. Create and activate a virtual environment:
-
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
@@ -92,21 +91,16 @@ OPENAI_API_KEY=your_api_key_here`
 5. Initialize the database:
 ```
 python backend/database.py
-
 ```
-
 
 6. Run the backend application:
 ``` 
 python backend/main.py
 ```
 
-
-
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
-
 ```
 cd frontend
 ```
@@ -118,9 +112,7 @@ npm install
 
 3. Start the development server:
 ```
-
 npm start
-
 ```
 
 ## Usage Guide
@@ -142,7 +134,6 @@ npm start
 4. To run a new batch of tests, use the backend CLI:
 ```
 python backend/main.py --generate-scenarios 50 --run-tests
-
 ```
 
 ## Contributing
