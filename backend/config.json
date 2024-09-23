@@ -1,0 +1,7 @@
+{
+    "openai_api_key": "your_openai_api_key_here",
+    "database_url": "sqlite:///ai_stress_test.db",
+    "log_level": "INFO",
+    "allowed_models": ["gpt-3.5-turbo", "bert-base-uncased"],
+    "test_scenarios_count": 10
+  }
