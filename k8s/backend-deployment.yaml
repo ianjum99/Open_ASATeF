@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-stress-testing-backend
+  labels:
+    app: ai-stress-testing
+    tier: backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ai-stress-testing
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: ai-stress-testing
+        tier: backend
+    spec:
+      containers:
+        - name: ai-stress-testing-backend
+          image: your-registry/ai-stress-testing-backend:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: ai-stress-testing-secrets
+                  key: openai-api-key
+          envFrom:
+            - configMapRef:
+                name: ai-stress-testing-config
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
